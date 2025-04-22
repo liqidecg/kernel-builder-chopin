@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "android_kernel_samsung_sm8550",
-      "repo": "https://github.com/qlenlen/android_kernel_samsung_sm8550",
-      "branch": "ksu",
+      "repo": "https://github.com/fei-ke/android_kernel_samsung_sm8550",
+      "branch": "gki",
       "device": "gki",
       "defconfig": "gki_defconfig"
     },
