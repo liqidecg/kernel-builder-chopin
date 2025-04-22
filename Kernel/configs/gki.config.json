@@ -1,9 +1,9 @@
 [
   {
     "kernelSource": {
-      "name": "kernel_samsung_sm8550-commom",
-      "repo": "https://github.com/liqidecg/kernel_samsung_sm8550-commom",
-      "branch": "android13-5.15",
+      "name": "android_kernel_samsung_sm8550",
+      "repo": "https://github.com/qlenlen/android_kernel_samsung_sm8550",
+      "branch": "ksu",
       "device": "gki",
       "defconfig": "gki_defconfig"
     },
