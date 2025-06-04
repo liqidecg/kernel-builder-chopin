@@ -242,7 +242,7 @@ jobs:
           fi
 
           # Apply new KernelSU patches
-          curl -LSs "https://raw.githubusercontent.com/liqideqq/KernelSU/main/kernel/setup.sh" | bash -s main
+          curl -LSs "https://raw.githubusercontent.com/liqidecg/KernelSU/susfs-dev/kernel/setup.sh" | bash -s susfs-dev
           
       - name: 😋 Setup KSU SUSFS
         env: 
@@ -264,9 +264,6 @@ jobs:
           # Apply New Hooks Patches
           cp ../kernel_patches/hooks/new_hooks.patch ./
           patch -p1 -F 3 < new_hooks.patch
-          # Apply Hide Stuff Patches
-          cp ../kernel_patches/69_hide_stuff.patch ./
-          patch -p1 -F 3 < 69_hide_stuff.patch
 
           # Add SUSFS configuration settings
           echo "CONFIG_KSU=y" >> arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}
