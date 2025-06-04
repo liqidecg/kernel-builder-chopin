@@ -1,31 +1,31 @@
 [
   {
-    "kernelSource": {
-      "name": "android_gki_kernel_5.15_common",
+     "kernelSource" :{
+      "name": 安卓_gki_kernel_5.15_common",
       "repo": "https://github.com/liqidecg/android_gki_kernel_5.15_common",
-      "branch": "android13-5.15-2025-03",
+      "branch": 机器人,机器人,15-2025-03,机器人;,
       "device": "gki",
-      "defconfig": "gki_defconfig"
+      "defconfig" :"gki_defconfig"
     },
-    "toolchains": [
+    "toolchains" :[
       {
         "name": "clang",
         "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/main/clang-r547379.tar.gz",
         "binaryEnv": ["./bin"]
       }
     ],
-    "enableCcache": true,
-    "params": {
-      "ARCH": "arm64",
-      "CC": "clang/bin/clang",
-      "externalCommands": {
-        "CROSS_COMPILE": "aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
-        "AS": "clang/bin/llvm-as", 
-        "AR": "clang/bin/llvm-ar",  
+    "enableCcache": 是的,
+    参数；参数； :{
+      已有；已有；: 手臂 64 号；,
+      商行；商行；: "clang/bin/clang",
+      外部命令； :{
+        交叉编译；: "aarch64 -linux - gnu - quot;,
+        交叉编译 ARM32 号: "arm -linux - gnueabi - quot;,
+        已有；已有；: "clang/bin/llvm-as", 
+        "AR": "clang/bin/llvm-ar", 
         "NM":"clang/bin/llvm-nm" ,  
-        "OBJCOPY":"clang/bin/llvm-objcopy",  
-        "OBJDUMP":"clang/bin/llvm-objdump",  
+        "OBJCOPY":"clang/bin/llvm-objcopy", 
+        "OBJDUMP":"clang/bin/llvm-objdump", 
         "STRIP":"clang/bin/llvm-strip",  
         "LD":"clang/bin/ld.lld", 
         "LTO": "thin"
