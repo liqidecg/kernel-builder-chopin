@@ -308,7 +308,7 @@ jobs:
           ARGS: ${{ steps.generate-args.outputs.ARGS }}
         run: |
           echo "🤔 PATH Variable: $PATH"
-          export KBUILD_BUILD_TIMESTAMP="Wed Oct 25 05:41:09 UTC 2023"
+          export KBUILD_BUILD_TIMESTAMP="Thu Jan 1 07:00:00 WIB 2023"
           export KBUILD_BUILD_HOST=Github-Action
           export KBUILD_BUILD_USER=$(echo ${{ github.actor }} | tr A-Z a-z)
           make ${{ env.ARGS }} ${{ env.KERNEL_DEFCONFIG_PATH }}
