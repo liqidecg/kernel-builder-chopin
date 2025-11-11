@@ -263,8 +263,8 @@ jobs:
           patch -p1 < 50_add_susfs_in_${{ env.SFS_BRANCH }}.patch || true
 
           # Apply New Hooks Patches
-          cp ../SukiSU_patch/hooks/sukisu_tracepoint_hooks_v1.1.patch ./
-          patch -p1 -F 3 < sukisu_tracepoint_hooks_v1.1.patch
+          cp ../SukiSU_patch/hooks/scope_min_manual_hooks_v1.6.patch ./
+          patch -p1 -F 3 < scope_min_manual_hooks_v1.6.patch
 
           # Add SUSFS configuration settings
           echo "CONFIG_KSU=y" >> arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}
