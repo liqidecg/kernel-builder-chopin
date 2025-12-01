@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "android_gki_kernel_5.4_common",
-      "repo": "https://github.com/Inkypen79/kernel_xiaomi_odin",
-      "branch": "lineage-23.0",
+      "repo": "https://github.com/lxsclnb666/xiaomi_kernel_odin",
+      "branch": "master",
       "device": "gki",
       "defconfig": "gki_defconfig"
     },
