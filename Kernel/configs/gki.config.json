@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "android_gki_kernel_5.4_common",
-      "repo": "https://github.com/jsdizkcksv/android_kernel_xiaomi_sm8350-miui",
-      "branch": "ASB-2024-10-05",
-      "device": "gki",
-      "defconfig": "gki_defconfig"
+      "repo": "https://github.com/lxsclnb666/xiaomi_kernel_odin",
+      "branch": "master",
+      "device": "odin",
+      "defconfig": "odin_defconfig"
     },
     "toolchains": [
       {
