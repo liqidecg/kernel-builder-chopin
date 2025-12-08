@@ -270,9 +270,10 @@ jobs:
           echo "CONFIG_KSU=y" >> arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}
           echo "CONFIG_KPM=y" >> arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}
           echo "CONFIG_KSU_MANUAL_HOOK=y" >> arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}
+          echo "CONFIG_KSU_MANUAL_SU=y" >> arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}
           echo "CONFIG_KSU_SUSFS_SUS_SU=n" >> arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}
           
-          echo "CONFIG_KSU_SUSFS=y" >> arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}
+          echo "CONFIG_KSU_SUSFS=n" >> arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}
           echo "CONFIG_KSU_SUSFS_HAS_MAGIC_MOUNT=y" >> arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}
           echo "CONFIG_KSU_SUSFS_SUS_PATH=y" >> arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}
           echo "CONFIG_KSU_SUSFS_SUS_MOUNT=y" >> arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}
