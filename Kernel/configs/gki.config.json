@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "android_gki_kernel_5.4_common",
-      "repo": "https://github.com/keiko233/kernel_xiaomi_odin",
-      "branch": "TDA",
+      "repo": "https://github.com/tanz3/kernel_xiaomi_sm8350-miui",
+      "branch": "miui-t",
       "device": "gki",
       "defconfig": "gki_defconfig"
     },
