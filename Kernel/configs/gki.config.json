@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "android_gki_kernel_5.4_common",
-      "repo": "https://github.com/onghua/kernel_xiaomi_odin",
-      "branch": "HyperOS-14",
-      "device": "odin",
-      "defconfig": "odin_defconfig"
+      "repo": "https://github.com/AndroidBlobs/kernel_xiaomi_odin",
+      "branch": "release-LA.UM.9.14.r1-16700-LAHAINA.0",
+      "device": "gki",
+      "defconfig": "gki_defconfig"
     },
     "toolchains": [
       {
