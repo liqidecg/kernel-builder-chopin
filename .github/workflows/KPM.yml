@@ -241,7 +241,7 @@ jobs:
           cp ../SukiSU_patch/hooks/scope_min_manual_hooks_v1.6.patch ./
           patch -p1 -F 3 < scope_min_manual_hooks_v1.6.patch
           # Unicode_bypass_Fix
-          cp ../unicode_bypass_fix_5.10-6.1.patch ./
+          cp ../Unicode_bypass_Fix/unicode_bypass_fix_5.10-6.1.patch ./
           patch -p1 -F 3 < unicode_bypass_fix_5.10-6.1.patch
           # Add SUSFS configuration settings
           echo "CONFIG_KSU=y" >> arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}
