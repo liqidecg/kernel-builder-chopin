@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "android_gki_kernel_5.4_common",
-      "repo": "https://github.com/gmh5225/android_kernel_xiaomi_sm8350",
-      "branch": "UpsidedownCake",
+      "repo": "https://github.com/evrahimkhan/Rebased-Black-X",
+      "branch": "v1.1",
       "device": "gki",
       "defconfig": "gki_defconfig"
     },
