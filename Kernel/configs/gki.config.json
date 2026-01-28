@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "android_gki_kernel_5.4_common",
       "repo": "https://github.com/liqidecg/xiaomi_kernel_odin",
-      "branch": "TDA",
+      "branch": "master",
       "device": "odin",
       "defconfig": "odin_defconfig"
     },
