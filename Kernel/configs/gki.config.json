@@ -38,7 +38,7 @@
     "enableKernelSU": true,
     "KernelSUSFS":{
       "enable": true,
-      "branches": "gki-android12-5.10"
+      "branches": "kernel-5.4"
     }
   }
 ]
