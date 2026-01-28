@@ -238,8 +238,8 @@ jobs:
           cp ../susfs4ksu/kernel_patches/include/linux/* ./include/linux/
           patch -p1 < 50_add_susfs_in_${{ env.SFS_BRANCH }}.patch || true
           # Apply New Hooks Patches
-          cp ../SukiSU_patch/hooks/scope_min_manual_hooks_v1.7.patch ./
-          patch -p1 -F 3 < scope_min_manual_hooks_v1.7.patch
+          cp ../SukiSU_patch/hooks/scope_min_manual_hooks_v1.6.patch ./
+          patch -p1 -F 3 < scope_min_manual_hooks_v1.6.patch
           # Unicode_bypass_Fix
           #cp ../Unicode_bypass_Fix/unicode_bypass_fix2.patch ./
           #patch -p1 -F 3 < unicode_bypass_fix2.patch
