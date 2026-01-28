@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "android_gki_kernel_5.4_common",
-      "repo": "https://github.com/evrahimkhan/Rebased-Black-X",
-      "branch": "v1.1",
+      "repo": "https://github.com/liqidecg/kernel_xiaomi_odin",
+      "branch": "TDA",
       "device": "gki",
       "defconfig": "gki_defconfig"
     },
