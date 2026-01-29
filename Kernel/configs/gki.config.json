@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "android_gki_kernel_5.4_common",
-      "repo": "https://github.com/liqidecg/xiaomi_kernel_odin",
+      "repo": "https://github.com/zzh19840509/xiaomi_kernel_odin",
       "branch": "master",
       "device": "odin",
       "defconfig": "odin_defconfig"
@@ -38,7 +38,7 @@
     "enableKernelSU": true,
     "KernelSUSFS":{
       "enable": true,
-      "branches": "gki-android12-5.10"
+      "branches": "kernel-5.4"
     }
   }
 ]
